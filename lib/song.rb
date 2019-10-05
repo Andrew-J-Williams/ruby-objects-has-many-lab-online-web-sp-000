@@ -6,7 +6,7 @@ class Song
 
   def initialize(name) # As we initliaze each song, we capture it's name.
     @name = name
-    @@all << self # Then, we take 
+    @@all << self # Then, we take each instance and push it into our class variable, creating a list of songs.
   end
 
   def self.all
