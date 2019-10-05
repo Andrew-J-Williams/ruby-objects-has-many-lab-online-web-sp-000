@@ -8,7 +8,7 @@ class Artist
     @name = name
   end
 
-  def songs # Method searches through our 'Song' array to 
+  def songs # Method searches through our 'Song' array to see what songs are associated with a particular artist.
     Song.all.select {|song| song.artist == self}
   end
 
