@@ -14,7 +14,7 @@ class Song
   end
 
   def artist_name # This method connects our 'artist' attribute to the instance of the 'Artist' class.
-    @artist == nil ? nil : @artist.name 
+    @artist == nil ? nil : @artist.name # Checks to see if our song has an artist's associated with it. If so, it returns the name of that artist.
   end
 
 end
