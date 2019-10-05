@@ -9,7 +9,7 @@ class Song
     @@all << self # Then, we take each instance and push it into our class variable, creating a list of songs.
   end
 
-  def self.all # Like the '@@count' 
+  def self.all # Like the '@@count' in
     @@all
   end
 
