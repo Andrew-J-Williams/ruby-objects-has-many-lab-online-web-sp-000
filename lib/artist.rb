@@ -8,8 +8,8 @@ class Artist
     @name = name
   end
 
-  def songs
-    Song.all.select {|song| song.artist == self}
+  def songs # Method searches through our 'Song' array to 
+    Song.all.select {|song| song.artist == self} 
   end
 
   def add_song(song)
