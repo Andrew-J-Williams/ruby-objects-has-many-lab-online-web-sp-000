@@ -17,13 +17,13 @@ class Artist
     @@count += 1 # The creation of a song will trigger our counter to increase by 1.
   end
 
-  def add_song_by_name(name) # This method creates a new song under an artist and adds it to that artist's collection 
+  def add_song_by_name(name) # This method creates a new song under an artist and adds it to that artist's collection
     song = Song.new(name)
-    add_song(song)
-    @@count += 1
+    add_song(song) # Implements our previously defined method.
+    @@count += 1 # Again, since we create a new instance of a song, counter increases by 1.
   end
 
-  def self.song_count
+  def self.song_count # After running the previous code, the final count for our class variable is returned.
     @@count
   end
 
