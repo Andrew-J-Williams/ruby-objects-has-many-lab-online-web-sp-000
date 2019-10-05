@@ -4,7 +4,7 @@ class Author
 
   @@count = 0
 
-  def initliaze(name)
+  def initialize(name)
     @name = name
   end
 
