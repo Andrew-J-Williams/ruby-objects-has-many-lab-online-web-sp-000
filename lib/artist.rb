@@ -1,8 +1,8 @@
 class Artist
 
-  attr_accessor :name, :songs
+  attr_accessor :name, :songs # Our getter and setter methods exist for these variables.
 
-  @@count = 0
+  @@count = 0 # We create a class variable for our count, so that it can be
 
   def initialize(name)
     @name = name
