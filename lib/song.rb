@@ -13,8 +13,8 @@ class Song
     @@all
   end
 
-  def artist_name
-    @artist == nil ? nil : @artist.name
+  def artist_name # This method connects our 'artist' attribute to the instance of the 'Artist' class.
+    @artist == nil ? nil : @artist.name 
   end
 
 end
