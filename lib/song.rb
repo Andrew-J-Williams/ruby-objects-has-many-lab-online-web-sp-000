@@ -14,7 +14,7 @@ class Song
   end
 
   def artist_name
-    @@all.find {|x| x}
+    @@all.find {|x| x.artist.name }
   end
 
 end
