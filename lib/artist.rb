@@ -4,7 +4,7 @@ class Artist
 
   @@count = 0 # We create a class variable for our song count, so that it can be utilized within the scope of the whole class.
 
-  def initialize(name) # This initializes our class by using the name variable
+  def initialize(name) # This initializes our class by using the name variable.
     @name = name
   end
 
