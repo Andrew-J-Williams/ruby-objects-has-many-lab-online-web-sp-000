@@ -9,7 +9,7 @@ class Artist
   end
 
   def songs # Method searches through our 'Song' array to see what songs are associated with a particular artist.
-    Song.all.select {|song| song.artist == self} # The 'select' enumerator will return an array will all instances of songs under a given artist's name
+    Song.all.select {|song| song.artist == self} # The 'select' enumerator will return an array will all instances of songs under a given artist's name.
   end
 
   def add_song(song)
