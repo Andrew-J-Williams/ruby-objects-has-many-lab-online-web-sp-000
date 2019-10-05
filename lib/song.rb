@@ -14,7 +14,7 @@ class Song
   end
 
   def artist_name
-    @@all.find 
+    @@all.find {|x| x == self.artist.naem}
   end
 
 end
