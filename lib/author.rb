@@ -10,7 +10,6 @@ class Author
 
   def posts
     #Post.all.select {|post| post.title == self}
-    @Post
   end
 
   def add_post(post)
