@@ -6,7 +6,7 @@ class Song
 
   def initialize(name) # As we initliaze each song, we capture it's name.
     @name = name
-    @@all << self # Then, 
+    @@all << self # Then, we take 
   end
 
   def self.all
