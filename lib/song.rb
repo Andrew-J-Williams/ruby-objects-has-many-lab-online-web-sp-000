@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :name, :artist
 
-  @@all = [] # Class variable 
+  @@all = [] # Class variable that is an empty array.
 
   def initialize(name)
     @name = name
