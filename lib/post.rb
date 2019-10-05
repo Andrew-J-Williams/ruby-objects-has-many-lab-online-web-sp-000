@@ -1,1 +1,4 @@
 class Post
+
+
+end
