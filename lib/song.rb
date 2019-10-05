@@ -4,7 +4,7 @@ class Song
 
   @@all = [] # Class variable that is an empty array.
 
-  def initialize(name)
+  def initialize(name) # As we initliaze each song
     @name = name
     @@all << self
   end
