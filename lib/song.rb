@@ -14,11 +14,7 @@ class Song
   end
 
   def artist_name
-    artist_value = self.artist.name
-
-    if artist_value == true
-      return artist_value
-    end
+    self.artist.name
   end
 
 end
