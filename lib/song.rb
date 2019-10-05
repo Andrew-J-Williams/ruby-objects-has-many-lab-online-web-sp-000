@@ -4,9 +4,9 @@ class Song
 
   @@all = [] # Class variable that is an empty array.
 
-  def initialize(name) # As we initliaze each song
+  def initialize(name) # As we initliaze each song, we capture it's name.
     @name = name
-    @@all << self
+    @@all << self # Then
   end
 
   def self.all
