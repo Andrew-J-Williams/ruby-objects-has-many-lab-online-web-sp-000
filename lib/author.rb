@@ -9,7 +9,7 @@ class Author
   end
 
   def posts
-    Post.all
+    Post.all # Returns the array of all the posts.
   end
 
   def add_post(post)
