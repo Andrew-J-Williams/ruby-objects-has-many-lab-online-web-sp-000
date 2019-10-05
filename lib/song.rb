@@ -17,6 +17,8 @@ class Song
     artist_value = self.artist.name
 
     if artist_value == true
+      return artist_value
+    end
   end
 
 end
