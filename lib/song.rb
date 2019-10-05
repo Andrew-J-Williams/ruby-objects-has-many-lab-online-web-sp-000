@@ -1,6 +1,6 @@
 class Song
 
-  attr_accessor :name, :artist # The artist attribute present in the 'Song' class is 
+  attr_accessor :name, :artist # The artist attribute present in the 'Song' class is equal to the instance of the 'Artist' class
 
   @@all = [] # Class variable that is an empty array.
 
