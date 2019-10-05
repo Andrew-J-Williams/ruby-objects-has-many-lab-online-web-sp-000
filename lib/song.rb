@@ -1,6 +1,6 @@
 class Song
 
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist # The artist attribute present in the 'Song' class is 
 
   @@all = [] # Class variable that is an empty array.
 
