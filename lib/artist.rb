@@ -14,10 +14,10 @@ class Artist
 
   def add_song(song) # Method adds an artist name to our particular song.
     song.artist = self
-    @@count += 1 # The creation of a song will trigger our 
+    @@count += 1 # The creation of a song will trigger our counter to increase by 1.
   end
 
-  def add_song_by_name(name)
+  def add_song_by_name(name) # This method creates a new song under an artist and adds it to that artist's collection 
     song = Song.new(name)
     add_song(song)
     @@count += 1
