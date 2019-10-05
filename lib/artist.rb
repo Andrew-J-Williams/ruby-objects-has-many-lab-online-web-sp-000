@@ -8,6 +8,8 @@ class Artist
     @name = name
   end
 
+  def song
+
   def add_song(song)
 
   end
