@@ -12,7 +12,7 @@ class Artist
     Song.all.select {|song| song.artist == self} # The 'select' enumerator will return an array will all instances of songs under a given artist's name.
   end
 
-  def add_song(song)
+  def add_song(song) # Method adds a song to our
     song.artist = self
     @@count += 1
   end
