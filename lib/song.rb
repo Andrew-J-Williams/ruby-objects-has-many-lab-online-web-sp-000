@@ -1,6 +1,6 @@
 class Song
 
-  attr_accessor :name, :artist # The artist attribute present in the 'Song' class is equal to the instance of the 'Artist' class
+  attr_accessor :name, :artist # The artist attribute present in the 'Song' class is equal to the instance of the 'Artist' class.
 
   @@all = [] # Class variable that is an empty array.
 
@@ -9,7 +9,7 @@ class Song
     @@all << self # Then, we take each instance and push it into our class variable, creating a list of songs.
   end
 
-  def self.all
+  def self.all # Like the '@@count' 
     @@all
   end
 
